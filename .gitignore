@@ -54,4 +54,6 @@ docs/_build/
 
 .DS_Store
 secrets.py
+pelican-bootstrap3
+pelican-plugins
 

@@ -52,4 +52,4 @@ def cf_upload():
 def publish():
     local('pelican content -o output -s pelicanconf.py')
     local('ghp-import output')
-    local('git push origin gh-pages:master')
+    local('git push https://github.com/sazlin/sazlin.github.io.git gh-pages:master')
