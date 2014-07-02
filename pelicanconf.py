@@ -7,6 +7,7 @@ SITENAME = u'Sean Azlin'
 SITEURL = ''
 THEME = './pelican-bootstrap3'
 BOOTSTRAP_THEME = 'spacelab'
+BOOTSTRAP_NAVBAR_INVERSE = True
 PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
