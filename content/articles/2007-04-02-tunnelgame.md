@@ -2,7 +2,7 @@ Title: Tunnel Racer (DX and 3DSMax)
 Date: 2007-04-02 01:34:00
 Author: Sean Azlin
 Category: RIT
-Tags: RIT, Game Development
+Tags: Game Development
 Slug: tunnel-racer
 
 As a follow up to the simple tri-strip and terrain project, we spent the
