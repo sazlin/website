@@ -19,14 +19,12 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('rheTOracle', 'http://ec2-54-213-173-105.us-west-2.compute.amazonaws.com/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'http://twitter.com/SeanAzlin2'),
+          ('LinkedIn', 'http://linkedin.com/in/seanazlin'),
+          ('GitHub', 'http://github.com/sazlin'),)
 
 DEFAULT_PAGINATION = False
 
