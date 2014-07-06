@@ -25,10 +25,10 @@ after I finished a first version of the snapping & alignment algorithm.
 The circles represent "snap points" that active blocks are looking for
 as they are moved around the game board.
 
-![PPT Concept Image](images/elem-game1.png)
+![PPT Concept Image](../images/elem-game1.png)
 
-![Latest Prototype Screen](images/elem-game2.png)
+![Latest Prototype Screen](../images/elem-game2.png)
 
-![Pattern Recognition Debug Screen](images/elem-game3.png)
+![Pattern Recognition Debug Screen](../images/elem-game3.png)
 
-![First Game Screen](images/elem-game4.png)
+![First Game Screen](../images/elem-game4.png)

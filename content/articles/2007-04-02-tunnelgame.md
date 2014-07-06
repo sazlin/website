@@ -12,7 +12,7 @@ project since I had been working on game engines earlier that academic
 year.The idea was to create a 3D Tunnel Racing game similar to an old
 but still awesome game called [Ballistics][].
 
-![Tunnel Game Screen](images/tunnel_game1.jpg)
+![Tunnel Game Screen](../images/tunnel_game1.jpg)
 
 Some cool things we did with our game:
 * We created our levels as sets of Direct3D meshes manually in 3DSMax. One mesh was a visual tube that we rendered for the user. The second mesh was a clone of the visual tube but it was invisible and had a smaller tube radius. The radiai of the second tube mesh were then used at load time to generate the invisible track that a racer would drive on. The third mesh was a bunch of buildings and landscapes for our "outdoor" parts of the game. Basically, we turned 3DSMax into our level builder without any retooling. Awesome.
