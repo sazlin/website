@@ -56,4 +56,6 @@ docs/_build/
 secrets.py
 pelican-bootstrap3
 pelican-plugins
+output/
+cache/
 
