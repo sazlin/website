@@ -3,7 +3,7 @@ Date: 2014-07-05
 Slug: creating-a-blog-on-GitHub-dot-io-with-Python
 Author: Sean Azlin
 Category: Programming
-Tags: Python, Pelican
+Tags: Python, Pelican, CodeFellows
 Summary: How to create a blog on GitHub.io with Python using Pelican
 
 ##Creating a Blog on GitHub.io with Python
