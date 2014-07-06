@@ -19,12 +19,28 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('rheTOracle', 'http://ec2-54-213-173-105.us-west-2.compute.amazonaws.com/'),)
+LINKS =  (('Project rheTOracle', 'http://ec2-54-213-173-105.us-west-2.compute.amazonaws.com/'),
+               ('Code Fellows - Seattle', 'http://codefellows.org'),
+               ('RIT', 'http://rit.edu'),)
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/SeanAzlin2'),
           ('LinkedIn', 'http://linkedin.com/in/seanazlin'),
           ('GitHub', 'http://github.com/sazlin'),)
+
+OPEN_GRAPH_IMAGE = "../images/sean.jpg"
+AVATAR = "../images/sean.jpg"
+ABOUT_ME = """
+Software Engineer with 7 years of experience building world-class software. Microsoft Alum, RIT Alum, Code Fellow, and Certified Scrum Master (CSM).
+"""
+GITHUB_USER = 'sazlin'
+GITHUB_REPO_COUNT = 8
+
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
+DISPLAY_PAGES_ON_MENU = True
+
+TAG_CLOUD_STEPS = 1
+TAG_CLOUD_MAX_ITEMS = 4
 
 DEFAULT_PAGINATION = False
 
@@ -34,6 +50,9 @@ STATIC_PATHS = [
     ]
 
 GITHUB_URL = 'http://github.com/sazlin'
+TWITTER_USERNAME = 'SeanAzlin2'
+TWITTER_WIDGET_ID = 485870315860287488
+
 
 # Where to look for plugins
 PLUGIN_PATH = './pelican-plugins'

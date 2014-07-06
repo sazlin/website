@@ -35,7 +35,7 @@ Pelican is also open source, easy to get started with, fairly popular, has an ac
 ###Step 1: Start a Blog Project
 The first thing I do when starting a new project is use [virtualenv](http://virtualenv.readthedocs.org/en/latest/virtualenv.html) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) to create a dev environment and project folder for my project using virtualenvwrapper's `mkproject` command: 
 
-    :::bash
+    :::text
     $ mkproject blog
 
 If you work with Python and you don't know what virtualenv or virtualenvwrapper are then I highly recommend checking them out to streamline your Python development workflow.
@@ -45,22 +45,22 @@ Before installing Pelican, make sure you're using Python 2.7 for this project. I
 
 Let's get this show on the road! Start by installing Pelican using `pip install`:
     
-    :::bash
+    :::text
     $ pip install pelican
 
 Pelican supports authoring content with reST OOtB but I prefer Markdown myself. If you're like me then go ahead and install Markdown next:
     
-    :::bash
+    :::text
     $ pip install markdown
 
 Once that completes you can run the following command to create an initial site:
 
-    :::bash
+    :::text
     $ pelican-quickstart
 
 You'll then be asked to answer several questions. Here are the answers I give it for my personal site:
 
-    :::bash
+    :::text
     seans-mbp:blog sazlin$ pelican-quickstart
 	Welcome to pelican-quickstart v3.4.0.
 
@@ -90,7 +90,7 @@ You'll then be asked to answer several questions. Here are the answers I give it
 
 Afterwards, your project's directory should look something like this:
 
-	:::bash
+	:::text
     .
 	├── Makefile
 	├── content
@@ -109,7 +109,7 @@ So what's all this?
 
 Let's see if we can give this site a first look-over. To do that we need to install Fabric and then use it to build and serve the site locally:
 
-	:::bash
+	:::text
     $ pip install fabric
 	...
 	$ fab build
@@ -118,7 +118,7 @@ Let's see if we can give this site a first look-over. To do that we need to inst
 	
 Here's what the last two lines look like for me:
 	
-	:::bash
+	:::text
     seans-mbp:blog sazlin$ fab build
 	[localhost] local: pelican -s pelicanconf.py
 	WARNING: Feeds generated without SITEURL set properly may not be valid
@@ -136,7 +136,7 @@ If you take a minute to look over your site's directory structure then you'll se
 
 Ok, so here's a question: Where is *your* content going to live in that output directory? In my case, I want to have my articles live in their own folder and my images live in their own folder. I also want a folder for my site's pages that aren't articles, such as my "About Me" page. To accomplish this, I'm going to ctrl+c in my terminal and create a few directories:
 	
-	:::bash
+	:::text
     $ mkdir ./content/articles
 	$ mkdir ./content/images
 	$ mkdir ./content/pages
@@ -145,7 +145,7 @@ Note that I created my new folders **in the `content` directory**, not in the `o
 
 At this point, the directory structure of the blog project should look something like this:
 
-	:::bash
+	:::text
     .
 	├── Makefile
 	├── blog.sublime-project
@@ -246,11 +246,12 @@ You can learn more about Pelican's settings [here](http://pelican.readthedocs.or
 
 Ok, now let's create a simple post to prove this whole thing works. In your terminal:
 	
-	:::bash
+	:::text
     $ touch ./content/articles/first_post.md
 
 Open the file you just created in your favorite editor and copy the following into it:
 
+	:::text
 	Title: My First Blog Post
 	Date: 2014-7-05 17:20
 	Category: MyCategory
@@ -265,7 +266,7 @@ Note that Pelican expects and supports the definition of lots of metadata at the
 
 Save that post and, in your terminal, rebuild the blog and take another look at it in your browser:
 
-	:::bash
+	:::text
     $ fab rebuild
 	$ fab serve
 
@@ -279,7 +280,7 @@ Create a repo on GitHub with a .gitignore file for Python. Call it "blog-repo" o
 
 Copy the new repo's clone URL and go back into your terminal at the root directory for your project. Run the following commands in-order to add your project to the repo.
 
-	:::bash
+	:::text
     $ fab clean
 	$ git init
 	$ git remote add origin <your repo url>
@@ -292,7 +293,7 @@ The first command, `fab clean`, removes all of the output files (which we don't 
 
 Ok, now run the following commands back in your terminal:
 
-	:::bash
+	:::text
     $ git add .
 	$ git commit -m 'Adding blog project files to repo'
 	$ git push origin master
@@ -306,7 +307,7 @@ To create a GitHub.io repo, go to GitHub and create a repo that has the followin
 
 Ok, back in your terminal you're going to want to install [ghp-import](https://github.com/davisp/ghp-import). This tool make it a little bit easier to put the right content into the right branch for GitHub.io. Here are the commands you want to run through to publish your content to GitHub.io for the first time!
 
-	:::bash
+	:::text
     $ pip install ghp-import
 	...
 	$ pelican content -o output -s pelicanconf.py
@@ -325,12 +326,12 @@ The last thing that you should probably do now is automate the last set of comma
     	
 Now if you ever have a new article or page to publish you can push it up by running:
 
-	:::bash
+	:::text
     $ fab publish
 
 Last, but not least, be sure to commit your latest source and project settings to your blog's project repo:
 
-	:::bash
+	:::text
     $ fab clean
 	$ git add .
 	$ git commit -m "Added publish() to fabfile.py for deploying to GitHub.io"
