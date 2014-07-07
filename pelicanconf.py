@@ -28,8 +28,8 @@ SOCIAL = (('Twitter', 'http://twitter.com/SeanAzlin2'),
           ('LinkedIn', 'http://linkedin.com/in/seanazlin'),
           ('GitHub', 'http://github.com/sazlin'),)
 
-OPEN_GRAPH_IMAGE = "../images/sean.jpg"
-AVATAR = "../images/sean.jpg"
+OPEN_GRAPH_IMAGE = "../images/sean1.jpg"
+AVATAR = "../images/sean1.jpg"
 ABOUT_ME = """
 Software Engineer with 7 years of experience building world-class software. Microsoft Alum, RIT Alum, Code Fellow, and Certified Scrum Master (CSM).
 """
