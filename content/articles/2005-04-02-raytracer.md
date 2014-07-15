@@ -4,6 +4,7 @@ Author: Sean Azlin
 Category: RIT
 Tags: Computer Graphics
 Slug: CG2-Raytracer
+Summary: Some renderings from my CG 2 raytracer
 
 Some renderings from my CG 2 raytracer. Built completely from scratch w/
 C on a Sun workstation. <3
