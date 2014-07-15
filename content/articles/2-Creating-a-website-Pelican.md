@@ -14,7 +14,7 @@ I'm currently attending an 8-week Python Development Accelerator at [Code Fellow
 
 ###My Goals for my Blog
 I had some general goals in mind when picking a blog platform to migrate to. It's well worth your time to take a minute and think through what it is you want out of your blog before getting started. Here were my goals:
- 
+
 * Create a site where I can share professional articles, tutorials, and other musings with the world
 * Have that site be easy to setup and maintain
 * Make it easy to author posts for the site, **including when I'm offline**, using [Markdown](http://en.wikipedia.org/wiki/Markdown)
