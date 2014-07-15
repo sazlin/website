@@ -4,7 +4,7 @@ Slug: project-rhetoracle
 Author: Sean Azlin
 Category: Programming
 Tags: Python, CodeFellows, Business Intelligence
-Summary: How rheTOracle collects, analyzes, and visualizes Twitter data  
+Summary: How rheTOracle collects, analyzes, and visualizes Twitter data
 
 ##Visualizing Twitter data with rheTOracle
 ###What is rheTOracle?

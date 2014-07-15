@@ -4,6 +4,7 @@ Author: Sean Azlin
 Category: RIT
 Tags: Game Development
 Slug: tunnel-racer
+Summary: Building a 3D game with DirectX and 3DSMax
 
 As a follow up to the simple tri-strip and terrain project, we spent the
 rest of this awesome class at RIT creating a 3D game of our

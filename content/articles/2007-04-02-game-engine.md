@@ -4,6 +4,7 @@ Author: Sean Azlin
 Category: RIT
 Tags: Game Development
 Slug: cross-plat-game-engine
+Summary: Fun screens and musings about creating a cross-platform game engine in C+
 
 For my second CG 2 project at RIT, I proposed to design and build a simple cross-platform game engine in C++. I did it mostly on Linux using VIM and CLI tools, which was of course a blast. The engine included an adapter layer that essentially abstracted away the graphics API for a given platform when implementing the game.
 

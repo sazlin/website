@@ -1,9 +1,10 @@
-Title: Windows 8 Puzzle Game (in progress)
+Title: Windows 8 Puzzle Game
 Date: 2014-03-17 12:18:56
 Author: Sean Azlin
 Category: Side Projects
 Tags: Game Development
 Slug: win-8-puzzle-game-progress
+Summary: Some ugly but fun screens from my current side project
 
 Some ugly but fun screens from my current side project. The top screen
 is a concept done in PowerPoint using a early prototype screenshot for
