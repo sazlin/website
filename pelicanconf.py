@@ -47,6 +47,7 @@ DEFAULT_PAGINATION = False
 READERS = {'html': None}
 STATIC_PATHS = [
     'images',
+    'CNAME',
     ]
 
 GITHUB_URL = 'http://github.com/sazlin'
