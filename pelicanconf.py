@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'Sean Azlin'
 SITENAME = u'Sean Azlin'
@@ -8,7 +9,7 @@ SITEURL = ''
 THEME = './pelican-bootstrap3'
 BOOTSTRAP_THEME = 'spacelab'
 BOOTSTRAP_NAVBAR_INVERSE = True
-CUSTOM_CSS = 'static/custom.css'
+CUSTOM_CSS = 'css/custom.css'
 PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
@@ -20,7 +21,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Project rheTOracle', 'http://ec2-54-213-173-105.us-west-2.compute.amazonaws.com/'),
+LINKS = (('Project rheTOracle', 'http://ec2-54-213-173-105.us-west-2.compute.amazonaws.com/'),
                ('Code Fellows - Seattle', 'http://codefellows.org'),
                ('RIT', 'http://rit.edu'),)
 
@@ -46,10 +47,17 @@ TAG_CLOUD_MAX_ITEMS = 4
 DEFAULT_PAGINATION = False
 
 READERS = {'html': None}
+
 STATIC_PATHS = [
     'images',
     'CNAME',
+    'css',
     ]
+
+# # Tell Pelican to change the path to 'static/custom.css' in the output dir
+# EXTRA_PATH_METADATA = {
+#     'extra/custom.css': {'path': 'static/custom.css'}
+# }
 
 GITHUB_URL = 'http://github.com/sazlin'
 TWITTER_USERNAME = 'SeanAzlin2'
@@ -59,7 +67,14 @@ TWITTER_WIDGET_ID = 485870315860287488
 # Where to look for plugins
 PLUGIN_PATHS = ['./pelican-plugins']
 # Which plugins to enable
-PLUGINS = ['liquid_tags.img']
+PLUGINS = [
+    'liquid_tags.img',
+    # 'disqus_static'
+]
+
+DISQUS_SITENAME = 'http://seanazlin.com'
+# DISQUS_SECRET_KEY = os.environ.get('DISQUS_API_SECRET')
+# DISQUS_PUBLIC_KEY = os.environ.get('DISQUS_API_KEY')
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
