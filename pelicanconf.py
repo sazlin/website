@@ -72,7 +72,7 @@ PLUGINS = [
     # 'disqus_static'
 ]
 
-DISQUS_SITENAME = 'http://seanazlin.com'
+DISQUS_SITENAME = 'seanazlin'
 # DISQUS_SECRET_KEY = os.environ.get('DISQUS_API_SECRET')
 # DISQUS_PUBLIC_KEY = os.environ.get('DISQUS_API_KEY')
 
