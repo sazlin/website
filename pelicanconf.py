@@ -8,6 +8,7 @@ SITEURL = ''
 THEME = './pelican-bootstrap3'
 BOOTSTRAP_THEME = 'spacelab'
 BOOTSTRAP_NAVBAR_INVERSE = True
+CUSTOM_CSS = 'static/custom.css'
 PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
@@ -56,7 +57,7 @@ TWITTER_WIDGET_ID = 485870315860287488
 
 
 # Where to look for plugins
-PLUGIN_PATH = './pelican-plugins'
+PLUGIN_PATHS = ['./pelican-plugins']
 # Which plugins to enable
 PLUGINS = ['liquid_tags.img']
 
